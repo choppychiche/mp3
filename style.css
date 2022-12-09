@@ -1,0 +1,275 @@
+*   {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    }
+
+body    {
+    font-family: cursive;
+}
+
+nav {
+    background:darkgray;
+    height: 80px;
+    width: 100%;
+    
+}
+
+label.logo {
+    color:white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7 13px;
+    border-radius: 3px;
+}
+
+a.active,li:hover {
+    background: black;
+    transition: .25s;
+    
+}
+
+.checkbtn {
+    font-size: 30px;
+    color:white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(94, 93, 93);
+        top: 80px
+        left: -100%;
+        text-align: center;
+        transition: all .25s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px ;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover,a.active {
+        background: none;
+        color: black ;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+}
+
+h1 {
+    color: white;
+    background-color: black;
+}
+
+/*-- sa active wallpaper--*/
+.img-crochet {
+    background-size: 100%;
+    width: 1990px;
+    height: 700px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.btn { /*--shop now button*/
+    margin-left: 43%;
+    border-radius: 40px;
+    border: 0;
+    font-size: 1.8rem;
+    font-weight: 1rem 0;
+    padding: 2rem 3rem;
+    white-space: nowrap;
+    cursor: pointer;
+    
+}
+
+
+.btn--mid {
+    background: gray;
+    color: white;
+}
+
+.btn--mid:hover {
+    background: rgb(0, 0, 0);
+}
+
+
+/*-----------------------------------card------------------------------------------------*/
+.container2 {
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.card {
+    background: lightgray ;
+    width: 450px;
+    height: 600px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image {
+    height: 450px;
+    margin-bottom: 15px;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-1 {
+    background-image: url('c1.jpg');
+}
+
+.card-2 {
+    background-image: url('c2.jpg');
+}
+
+.card-3 {
+    background-image: url('c3.jpg');
+}
+
+.card-4 {
+    background-image: url('c4.jpg');
+}
+
+.card a {
+    background: black;
+    color: white;
+    padding: 5px 5px; 
+    display: block;
+    text-align: center;
+    margin: 10px 100px 0px 100px;
+    border-radius: 5px;
+}
+
+.card p,h2 {
+    text-align: center;
+}
+/*-------------------------------gallery---------------------------------------*/
+.gallery {
+    margin: 10px 50px;
+}
+
+.gallery img {
+    width: 445px;
+    height: 420px;
+    padding: 10px;
+    background-color: black;
+    margin: center;
+    border-radius: 5px;
+}
+/*-------------------------------footer--------------------------------------*/
+.footer {
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.footer div{
+    text-align: center;
+}
+
+.col-2 {
+    flex-grow: 2;
+}
+
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20ps;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+
+form button{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+/*-------------------CROCHET-----------------------*/
