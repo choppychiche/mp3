@@ -14,10 +14,14 @@
             padding: 0;
             margin: 0;
             font-family: sans-serif;
-            color: white;
+            
         }
         h1 {
             background: none;
+        }
+
+        p {
+            color:white;
         }
 
         body{
@@ -34,42 +38,38 @@
             width: 350px;
         }
 
-        .btn {
-    margin-left: 43%;
-    border-radius: 40px;
-    border: 0;
-    font-size: 1.8rem;
-    font-weight: 1rem 0;
-    padding: 2rem 3rem;
-    white-space: nowrap;
+    .btn {
+    margin-left: 30%;
     cursor: pointer;
-    color: white;
-   
-    
-    
-}
+    color: rgb(255, 255, 255);
+         }
+
+    .btn:hover{
+        color:black;
+    }
 
     </style>
 </head>
 <body>
 <!-------------------NAVIGATION-------------------->
+<div class="container-fluid">
+    <div class="logo"> <a href="index.html"> <img src="k1.png" style = "height:50; width: 50px;"> </a> 
+    </div>
     <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn"> 
-            <i class="fa fa-bars"> </i>
-        </label>
-        <label class="logo"> KatanaOne </label>
-        <ul>
-            <li> <a class="active" href="index.html"> HOME </a> </li>
-            <li> <a href="crochet.html"> CROCHET </a> </li>
-            <li> <a href="partyneeds.html"> PARTY NEEDS </a> </li>
-            <li> <a href="custom.html"> CUSTOM </a> </li>
-        </ul>
-    </nav>
+
+<ul>
+    <li> <a href="index.html"> HOME </a> </li>
+    <li> <a href="crochet.html"> CROCHET </a> </li>
+    <li> <a href="partyneeds.html"> PARTY NEEDS </a> </li>
+    <li> <a href="custom.html"> CUSTOM </a> </li>
+</ul>
+</nav>
+</div>
 <!-------------------BUY-------------------->
 
     <div class="buy">
         <h1> Billing Information </h1>
+        <br>
         <form action="#" method="post">
             <p> Full Name: </p>
             <input type="text" name="fullname" placeholder="Enter Full Name">
