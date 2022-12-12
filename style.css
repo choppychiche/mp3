@@ -36,26 +36,13 @@ nav ul li a {
     border-radius: 3px;
 }
 
-.checkbtn {
-    font-size: 30px;
-    color:white;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
+
 
 .logo {
     position: absolute;
     margin-top: 15px;
     margin-left: 1in;
 }
-
-#check {
-    display: none;
-}
-
 
 h1 {
     color: white;
@@ -228,4 +215,3 @@ form button{
     cursor: pointer;
     
 }
-/*-------------------CROCHET-----------------------*/
